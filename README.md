@@ -1,5 +1,5 @@
 # SeedPills
-Create your own set of 3D-printable BIP39 bitcoin lottery pieces!
+Create your own set of 3D-printed BIP39 bitcoin lottery pieces!
 
 This Python program generates code compatible with OpenSCAD modeling software (https://openscad.org).
 
