@@ -93,8 +93,8 @@ while counter < total_pills :
 # code to generate lateral links
 while (row_counter < number_of_rows ):
 	while (column_counter < number_of_columns ):
-		print("translate([" + str(horizontal_link_offset) + "," + str(horizontal_y_offset) + ",-1.325])")
-		print("    cube([1.2,0.5,0.35],center=true);")
+		print("translate([" + str(horizontal_link_offset) + "," + str(horizontal_y_offset) + ",-0.825])")
+		print("    cube([1.2,0.5,0.3],center=true);")
 		horizontal_link_offset = horizontal_link_offset + 18.75
 		column_counter = column_counter + 1
 	column_counter = 1
@@ -111,8 +111,8 @@ horizontal_link_offset = 0
 horizontal_y_offset = -3.625
 while( row_counter < ( number_of_rows - 1 ) ):
 	while ( column_counter <= number_of_columns ):
-		print("translate([" + str(horizontal_link_offset) + "," + str(horizontal_y_offset) + ",-1.325])")
-		print("    cube([0.5,1.2,0.35],center=true);")
+		print("translate([" + str(horizontal_link_offset) + "," + str(horizontal_y_offset) + ",-0.825])")
+		print("    cube([0.5,1.2,0.3],center=true);")
 		horizontal_link_offset = horizontal_link_offset + 18.75
 		column_counter = column_counter + 1
 	column_counter = 1
