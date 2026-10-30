@@ -18,3 +18,7 @@ If you are satisfied with your grid, select "Render" and then "Export as STL" in
 Notes:
 - The pills will be two-sided so take this into account when printing (a full set will be 1024 pieces)
 - The pills are interlocked to help with bed adhesion, and so you can verify the words after removing them from the printer 
+
+## XFrame
+
+Want to keep a block of SeedPills together for shipping, or show it off on a desk? The [xframe](xframe/) folder has a printable X-shaped frame that clips around a block of pills and holds them in place, in a three-colour and a plain black version.
